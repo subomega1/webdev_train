@@ -1,0 +1,44 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing:  border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.navbar{
+  width: 90%;
+  margin: auto;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.nav-container{
+  padding: 20px 0;
+}
+.nav-container h2{
+  color: rgb(29, 29, 29);
+}
+.nav-container .nav{
+  justify-content: flex-end;
+  display: flex;
+}
+.nav-container .nav a{
+  margin: 0 20px;
+  color: black;
+}
+.nav-container .nav  .active{
+  background: #333;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
