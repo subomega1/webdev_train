@@ -31,14 +31,54 @@ margin-right: 25px;
 font-size: 20px; }
 .chat_notification{
   display: flex;
-}
+  
+} 
 .chat_chatbr{
   flex-grow: 25;
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100%;
+  
+}
+.chat_icons_personechat{
+
 }
 .notificatin{
 flex-grow: 1;
 
 }
-.
+.call_grp_msg_bar img{
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+
+}
+.home_plus_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home_plus_nav img{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+}
+.call_grp_msg_bar{
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 4px 2px rgba(90, 90, 90, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+.home_serch_dirc a{
+  display: inline-flex;
+  margin-right: 45px;
+  margin-bottom: 20px;
+}
+.home_serch_dirc input{
+  display: block;
+}
+
+.chat_header-chatspace{
+  flex:2 ;
+}
