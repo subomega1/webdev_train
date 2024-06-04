@@ -37,11 +37,7 @@ font-size: 20px; }
   flex-grow: 25;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  height: 100%;
-  
-}
-.chat_icons_personechat{
-
+  height: 100%; 
 }
 .notificatin{
 flex-grow: 1;
@@ -93,10 +89,15 @@ justify-items:center ;
   display: flex ;
   margin-top: 20px;
   justify-content: space-between;
+  border: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-color: #ffffff;
+  box-shadow: 2px 2px 4px 5px rgba(90, 90, 90, 0.2); 
+  border-right-width :0px ;
 }
 .time_msgnb img{
   width: 20px;
-  margin-bottom: 100000px;
   margin-top: 0;
   margin-left:50% ;
 }
