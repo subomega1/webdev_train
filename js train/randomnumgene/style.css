@@ -1,0 +1,12 @@
+body{
+  font-family: Verdana;
+  text-align: center;
+}
+#mybt{
+  font-size: 3em;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+#mylb{
+  font-size: 3em;
+}
