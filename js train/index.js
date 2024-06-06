@@ -10,7 +10,8 @@ incresebtn.onclick= function(){
 
 }
 restbtn.onclick= function(){
-  countlabel.textContent = 0;
+  count=0;
+  countlabel.textContent = count;
 
 }
 decreasebtn.onclick= function(){
