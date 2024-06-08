@@ -10,3 +10,11 @@ body{
 #mylb{
   font-size: 3em;
 }
+#diceResult{
+  margin: 25px;
+}
+  #diceImages img{
+  width: 150px;
+  margin: 5px;
+  
+  }
